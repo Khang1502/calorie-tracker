@@ -1,0 +1,19 @@
+body {
+  background-color: #222;
+  color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: auto; padding: 1em;
+}
+input, button {
+  width: 100%;
+  padding: 0.5em;
+  margin: 0.2em 0;
+  background: #333;
+  color: #fff;
+  border: 1px solid #555;
+}
+button { background: #444; cursor: pointer; }
+button:hover { background: #666; }
+h1, h2 { text-align: center; }
+.input-area { margin-bottom: 1em; }
