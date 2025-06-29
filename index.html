@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lượng calorie mỗi ngày / Daily Calorie Intake</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lượng calorie mỗi ngày / Daily Calorie Intake</h1>
+  <div class="input-area">
+    <label>🍽 Tên món ăn / Food name</label>
+    <input type="text" id="foodName" placeholder="vd: Cơm trắng / e.g. White rice">
+    <label>⚖ Khối lượng (g) / Weight (g)</label>
+    <input type="number" id="weight" placeholder="100">
+    <button onclick="addFood()">➕ Thêm / Add food</button>
+  </div>
+  <div id="result"></div>
+  <h2>📊 Tổng hôm nay / Today's total</h2>
+  <div id="totals"></div>
+  <h2>📝 Lịch sử món ăn / Food history</h2>
+  <ul id="history"></ul>
+<script src="script.js"></script>
+</body>
+</html>
